@@ -5,19 +5,35 @@ lines = ['Gyle Centre', 'Edinburgh Park', 'Murrayfield Stadium', 'Haymarket', 'P
 # 1. Work out how many stops there are in the array
 # puts lines.length()
 
-puts lines.length
+puts "There are #{lines.length} stops on this train"
 
 # 2. Return 'Edinburgh Park' from the array
 
+puts lines[1]
+
 # 3. How many ways can we return 'Princes Street' from the array?
+
+puts lines[-1]
+puts lines[5]
+
+princes_street = lines.pop()
+puts princes_street
 
 # 4. Work out the index position of 'Haymarket'
 
+puts lines.index("Haymarket")
+
 # 5. Add 'Airport' to the start of the array
+
+puts lines.unshift("Airport")
 
 # 6. Add 'York Place' to the end of the array
 
+puts lines << "York Place"
+
 # 7. Remove 'Edinburgh Park' from the array using it's name
+
+puts lines.delete("Edinburgh Park")
 
 # 8. Delete 'Edinburgh Park' from the array by index
 
